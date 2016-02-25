@@ -1,0 +1,15 @@
+<i class="close icon" ng-click="cancel()"></i>
+
+<div class="modal-header">
+    <h3 class="modal-title">Add a Player</h3>
+</div>
+<div class="modal-body">
+    <h4>Please enter your name</h4>
+    <input type="text" placeholder="name" name="name" id="name" ng-model="name">
+    <i class="user icon"></i>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="ok(name)">Add</button>
+    <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+</div>
+
